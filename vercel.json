@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npx nx build react-app",
+  "outputDirectory": "apps/react-app/dist",
+  "framework": "nodejs"
+}
