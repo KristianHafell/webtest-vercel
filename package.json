@@ -6,22 +6,35 @@
   "private": true,
   "dependencies": {
     "axios": "^1.6.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@nx/esbuild": "21.6.5",
     "@nx/js": "21.6.5",
     "@nx/node": "21.6.5",
+    "@nx/react": "^21.6.5",
+    "@nx/vite": "21.6.5",
+    "@nx/web": "21.6.5",
     "@nx/workspace": "21.6.5",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/node": "20.19.9",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/ui": "^3.0.0",
     "esbuild": "^0.19.2",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
     "nx": "21.6.5",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "vite": "^7.0.0",
+    "vitest": "^3.0.0"
   },
   "workspaces": [
     "apps/*"

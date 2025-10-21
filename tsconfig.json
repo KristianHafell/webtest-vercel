@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/webtest-vercel"
+    },
+    {
+      "path": "./apps/react-app"
     }
   ]
 }
